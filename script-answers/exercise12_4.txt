@@ -1,0 +1,86 @@
+Script started on 2024-10-31 07:50:35+00:00 [TERM="xterm-256color" TTY="/dev/pts/8" COLUMNS="120" LINES="30"]
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+[?2004h]0;xefea@Blue: ~/script-answers[01;32mxefea@Blue[00m:[01;34m~/script-answers[00m$ socker [K[K[K[K[K[K[Kdocker start -i nifty_payne
+[?2004l[?2004h]0;root@3975b0d2578f: /root@3975b0d2578f:/# apt install -y curl
+[?2004lReading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 7%Reading package lists... 7%Reading package lists... 79%Reading package lists... 79%Reading package lists... 80%Reading package lists... 80%Reading package lists... 81%Reading package lists... 81%Reading package lists... 85%Reading package lists... 85%Reading package lists... 89%Reading package lists... 89%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 94%Reading package lists... 94%Reading package lists... 97%Reading package lists... 97%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 2%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  libexpat1 libpython3-stdlib libpython3.12-minimal libpython3.12-stdlib media-types netbase python3 python3-minimal
+  python3.12 python3.12-minimal tzdata
+Use 'apt autoremove' to remove them.
+The following NEW packages will be installed:
+  curl
+0 upgraded, 1 newly installed, 0 to remove and 3 not upgraded.
+Need to get 227 kB of archives.
+After this operation, 534 kB of additional disk space will be used.
+[33m0% [Working][0m[33m0% [Connecting to archive.ubuntu.com (185.125.190.81)][0m                                                      Get:1 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 curl amd64 8.5.0-2ubuntu10.4 [227 kB]
+[33m                                                      0% [1 curl 1156 B/227 kB 1%][0m[33m44% [1 curl 125 kB/227 kB 55%][0m[33m                              100% [Working][0m              Fetched 227 kB in 1s (169 kB/s)
+debconf: delaying package configuration, since apt-utils is not installed
+
+7[0;29r8[1ASelecting previously unselected package curl.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 6667 files and directories currently installed.)
+Preparing to unpack .../curl_8.5.0-2ubuntu10.4_amd64.deb ...
+7[30;0f[42m[30mProgress: [  0%][49m[39m [..................................................................................................] 87[30;0f[42m[30mProgress: [ 20%][49m[39m [###################...............................................................................] 8Unpacking curl (8.5.0-2ubuntu10.4) ...
+7[30;0f[42m[30mProgress: [ 40%][49m[39m [#######################################...........................................................] 8Setting up curl (8.5.0-2ubuntu10.4) ...
+7[30;0f[42m[30mProgress: [ 60%][49m[39m [##########################################################........................................] 87[30;0f[42m[30mProgress: [ 80%][49m[39m [##############################################################################....................] 8
+7[0;30r8[1A[J[?2004h]0;root@3975b0d2578f: /root@3975b0d2578f:/# curl -sL https://deb.nodesource.com/setup_20.x | bash
+[?2004l[38;5;79m2024-10-31 13:21:06 - Installing pre-requisites[0m
+0% [Working]            Hit:1 https://deb.nodesource.com/node_20.x nodistro InRelease
+0% [Waiting for headers] [Connecting to security.ubuntu.com (185.125.190.83)]                                                                             0% [Waiting for headers] [Waiting for headers]                                              Hit:2 http://archive.ubuntu.com/ubuntu noble InRelease
+                                              0% [Waiting for headers]0% [Waiting for headers] [Waiting for headers]                                              Hit:3 http://security.ubuntu.com/ubuntu noble-security InRelease
+                                              0% [Waiting for headers]0% [Waiting for headers]                        Hit:4 http://archive.ubuntu.com/ubuntu noble-updates InRelease
+                        0% [Working]0% [Waiting for headers]                        Hit:5 http://archive.ubuntu.com/ubuntu noble-backports InRelease
+                        0% [Working]20% [Working]             Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 7%Reading package lists... 7%Reading package lists... 79%Reading package lists... 79%Reading package lists... 80%Reading package lists... 80%Reading package lists... 81%Reading package lists... 81%Reading package lists... 85%Reading package lists... 85%Reading package lists... 89%Reading package lists... 89%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 94%Reading package lists... 94%Reading package lists... 97%Reading package lists... 97%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 7%Reading package lists... 7%Reading package lists... 79%Reading package lists... 79%Reading package lists... 80%Reading package lists... 80%Reading package lists... 81%Reading package lists... 81%Reading package lists... 85%Reading package lists... 85%Reading package lists... 89%Reading package lists... 89%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 94%Reading package lists... 94%Reading package lists... 97%Reading package lists... 97%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 2%Reading state information... Done
+apt-transport-https is already the newest version (2.7.14build2).
+ca-certificates is already the newest version (20240203).
+curl is already the newest version (8.5.0-2ubuntu10.4).
+gnupg is already the newest version (2.4.4-2ubuntu17).
+The following packages were automatically installed and are no longer required:
+  libexpat1 libpython3-stdlib libpython3.12-minimal libpython3.12-stdlib media-types netbase python3 python3-minimal
+  python3.12 python3.12-minimal tzdata
+Use 'apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 3 not upgraded.
+0% [Working]            Hit:1 https://deb.nodesource.com/node_20.x nodistro InRelease
+0% [Connecting to archive.ubuntu.com (185.125.190.81)] [Connecting to security.ubuntu.com (185.125.190.83)]                                                                                                           0% [Waiting for headers] [Waiting for headers]                                              Hit:2 http://security.ubuntu.com/ubuntu noble-security InRelease
+                                              0% [Waiting for headers]                        Hit:3 http://archive.ubuntu.com/ubuntu noble InRelease
+                        0% [Working]0% [Waiting for headers]0% [Waiting for headers]                        Hit:4 http://archive.ubuntu.com/ubuntu noble-updates InRelease
+                        0% [Working]0% [Waiting for headers]                        Hit:5 http://archive.ubuntu.com/ubuntu noble-backports InRelease
+                        0% [Working]20% [Working]             Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 7%Reading package lists... 7%Reading package lists... 79%Reading package lists... 79%Reading package lists... 80%Reading package lists... 80%Reading package lists... 81%Reading package lists... 81%Reading package lists... 85%Reading package lists... 85%Reading package lists... 89%Reading package lists... 89%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 94%Reading package lists... 94%Reading package lists... 97%Reading package lists... 97%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+[1;34m2024-10-31 13:21:13 - Repository configured successfully.[0m
+[38;5;79m2024-10-31 13:21:13 - To install Node.js, run: apt-get install nodejs -y[0m
+[38;5;79m2024-10-31 13:21:13 - You can use N|solid Runtime as a node.js alternative[0m
+[1;32m2024-10-31 13:21:13 - To install N|solid Runtime, run: apt-get install nsolid -y 
+[0m
+[?2004h]0;root@3975b0d2578f: /root@3975b0d2578f:/# [Kapt install -y nodejs
+[?2004lReading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 7%Reading package lists... 7%Reading package lists... 79%Reading package lists... 79%Reading package lists... 80%Reading package lists... 80%Reading package lists... 81%Reading package lists... 81%Reading package lists... 85%Reading package lists... 85%Reading package lists... 89%Reading package lists... 89%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 94%Reading package lists... 94%Reading package lists... 97%Reading package lists... 97%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 2%Reading state information... Done
+The following NEW packages will be installed:
+  nodejs
+0 upgraded, 1 newly installed, 0 to remove and 3 not upgraded.
+Need to get 31.8 MB of archives.
+After this operation, 197 MB of additional disk space will be used.
+[33m0% [Working][0m            Get:1 https://deb.nodesource.com/node_20.x nodistro/main amd64 nodejs amd64 20.18.0-1nodesource1 [31.8 MB]
+[33m0% [1 nodejs 3562 B/31.8 MB 0%][0m[33m13% [1 nodejs 5020 kB/31.8 MB 16%][0m[33m25% [1 nodejs 9968 kB/31.8 MB 31%][0m[33m42% [1 nodejs 16.6 MB/31.8 MB 52%][0m[33m58% [1 nodejs 23.1 MB/31.8 MB 73%][0m[33m75% [1 nodejs 29.7 MB/31.8 MB 93%][0m[33m                                  100% [Working][0m              Fetched 31.8 MB in 3s (11.2 MB/s)
+debconf: delaying package configuration, since apt-utils is not installed
+
+7[0;29r8[1ASelecting previously unselected package nodejs.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 6676 files and directories currently installed.)
+Preparing to unpack .../nodejs_20.18.0-1nodesource1_amd64.deb ...
+7[30;0f[42m[30mProgress: [  0%][49m[39m [..................................................................................................] 87[30;0f[42m[30mProgress: [ 20%][49m[39m [###################...............................................................................] 8Unpacking nodejs (20.18.0-1nodesource1) ...
+7[30;0f[42m[30mProgress: [ 40%][49m[39m [#######################################...........................................................] 8Setting up nodejs (20.18.0-1nodesource1) ...
+7[30;0f[42m[30mProgress: [ 60%][49m[39m [##########################################################........................................] 87[30;0f[42m[30mProgress: [ 80%][49m[39m [##############################################################################....................] 8
+7[0;30r8[1A[J[?2004h]0;root@3975b0d2578f: /root@3975b0d2578f:/# node /usr/src/app/index.js
+[?2004lHello World
+[?2004h]0;root@3975b0d2578f: /root@3975b0d2578f:/# [Kexit
+[?2004lexit
+[?2004h]0;xefea@Blue: ~/script-answers[01;32mxefea@Blue[00m:[01;34m~/script-answers[00m$ exit
+[?2004lexit
+
+Script done on 2024-10-31 07:52:11+00:00 [COMMAND_EXIT_CODE="0"]
