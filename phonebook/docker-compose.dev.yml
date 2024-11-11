@@ -1,0 +1,34 @@
+services:
+  app:
+    image: phone-front-dev
+    build:
+      context: ./frontend
+      dockerfile: dev.Dockerfile
+    volumes:
+      - ./frontend:/usr/src/app
+    container_name: phone-front-dev
+    environment:
+      - VITE_BACKEND_URL=http://nginx:80/api
+
+  server:
+    image: phone-back-dev
+    build:
+      context: ./backend
+      dockerfile: dev.Dockerfile
+    volumes:
+      - ./backend:/usr/src/app
+    container_name: phone-back-dev
+    environment:
+      - MONGODB_URI=${MONGODB_URI}
+      - PORT=${PORT}
+
+  nginx:
+    image: nginx:1.20.1
+    volumes:
+      - ./nginx.dev.conf:/etc/nginx/nginx.conf:ro
+    ports:
+      - 8080:80
+    container_name: reverse-proxy-phone
+    depends_on:
+      - app
+      - server
